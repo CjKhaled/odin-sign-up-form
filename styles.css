@@ -1,0 +1,9 @@
+/* FONT */
+@font-face {
+    font-family: "Norse-Bold";
+    src: url('assests/Norse-Bold.otf');
+}
+
+h1 {
+    font-family: 'Norse-Bold';
+}
