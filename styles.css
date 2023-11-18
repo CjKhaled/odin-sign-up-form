@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 /* FONT */
 @font-face {
     font-family: "Norse-Bold";
@@ -6,4 +12,111 @@
 
 h1 {
     font-family: 'Norse-Bold';
+    color: white;
+    font-size: 8vw;
+}
+
+.form-head {
+    padding: 1rem 3rem 29px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+/* BACKGROUND SECTION */
+#background {
+    background-color: gray;
+    height: 100vh;
+}
+
+#odin {
+    height: 8vw;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 10vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.cite {
+    display: block;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 58vh;
+}
+
+.cite a {
+    color: white;
+}
+
+#form-input {
+    background-color: lightgray;
+}
+
+.form-title {
+    padding: 10rem 3rem 29px;
+}
+
+.know {
+    margin: 2rem 0rem;
+}
+
+fieldset {
+    background-color: white;
+    border: none;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    width: 40vw;
+    padding: 3rem;
+    padding-top: 1rem;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 273px;
+    height: 23px;
+    border: solid grey 1px;
+    border-radius: 5px;
+}
+
+.button-cont {
+    padding: 3rem;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    width: 220px;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.login {
+    color: black;
+    font-size: 15px;
+    padding: 1rem 3rem;
+}
+
+.log {
+    text-decoration: none;
+    color: #596D48;
 }
