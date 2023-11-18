@@ -27,7 +27,9 @@ h1 {
 
 /* BACKGROUND SECTION */
 #background {
-    background-color: gray;
+    background-image: url('assests/background.jpg');
+    background-position: center;
+    background-size: cover;
     height: 100vh;
 }
 
@@ -58,7 +60,7 @@ h1 {
 }
 
 #form-input {
-    background-color: lightgray;
+    background-color: #E5E7EB;
 }
 
 .form-title {
@@ -92,8 +94,9 @@ li {
 input {
     width: 273px;
     height: 23px;
-    border: solid grey 1px;
+    border: solid gray 1px;
     border-radius: 5px;
+    text-indent: 2px;
 }
 
 .button-cont {
@@ -119,4 +122,11 @@ button {
 .log {
     text-decoration: none;
     color: #596D48;
+}
+
+/* VALIDATION FUNCTIONALITY */
+
+input:focus {
+    outline: solid blue 1px;
+    box-shadow: 1px 1px 2px blue;
 }
