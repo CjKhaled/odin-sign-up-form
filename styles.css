@@ -130,3 +130,24 @@ input:focus {
     outline: solid blue 1px;
     box-shadow: 1px 1px 2px blue;
 }
+
+input:user-valid {
+    outline: solid green 1px;
+    box-shadow: 1px 1px 2px green;
+}
+
+input:user-invalid {
+    outline: solid red 1px;
+    box-shadow: 1px 1px 2px red;
+}
+
+/* Specifically making sure confirm password is true */
+input.pass2-fail {
+    outline: solid red 1px;
+    box-shadow: 1px 1px 2px red;
+}
+
+input.pass2-pass {
+    outline: solid green 1px;
+    box-shadow: 1px 1px 2px green;
+}

@@ -19,5 +19,11 @@ password2.addEventListener(('input'), (e) => {
     } else {
         checkpass2.pop()
     }
+    // Easiest way to compare array elements
+    if (JSON.stringify(checkpass1) === JSON.stringify(checkpass2)) {
+        password2.setAttribute('class', 'input.pass2:valid')
+    } else {
+        password2.setAttribute('class', 'input.pass2:invalid')
+    }
     
 })
